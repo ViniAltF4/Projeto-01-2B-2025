@@ -1,29 +1,5 @@
-
-.teste{
-
-    width: 534px;
-height: 976px;
-background-color: blue;
-    display:flex;
-    flex-direction: row ;
-    justify-content: space-between;
-    
+.postagem1 {
+    width: 534px;       /* Largura do quadrado */
+    height:573px;      /* Altura do quadrado */
+    background-color: blue;  /* Cor de fundo do quadrado */
 }
-
-.fundo_feed{
-    
-    
-    width: 534px;
-    height: 976px;
-    background-color: orange;
-
-.postagens_feed_1{
-    
-    
-    width: 442px;
-    height: 526px;
-    background-color: yellow;
-      
-}
-    
-    
