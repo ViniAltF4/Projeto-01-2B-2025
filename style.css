@@ -1,13 +1,22 @@
 
-.fundo_feed{
+.teste{
 
     width: 534px;
 height: 976px;
 background-color: blue;
-    
+    display:flex;
+    flex-direction: ;
     
 }
-.postagens_feed_2{
+
+.fundo_feed{
+    
+    
+    width: 534px;
+    height: 976px;
+    background-color: orange;
+
+.postagens_feed_1{
     
     
     width: 442px;
