@@ -1,7 +1,7 @@
 .primeira_secao {
     width: 534px;      
     height: 976px;   
-    display: flex;    
+    display: block;    
     justify-content: center; 
     align-items: center;     
     background-color: rgb(255, 56, 56); 
