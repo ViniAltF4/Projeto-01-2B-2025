@@ -14,3 +14,11 @@ display: flex;
 flex-direction:row ;
 justify-content: space-between;
 }
+
+.segunda_secao {
+
+    width:534px;
+    height:319px;
+    background-color:yellow ;
+
+}
