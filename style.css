@@ -1,17 +1,13 @@
 .primeira_secao {
-    width: 100%;      
-    height: 0px;   
+    width: 534px;      
+    height: 976px;   
     display: flex;    
     justify-content: center; 
     align-items: center;     
     background-color: rgb(255, 56, 56); 
 
 }
-.primeira_secao {
-    width: 534px;
-    height:976px;
-    background-color: rgb(179, 179, 179);
-}
+
 
 .postagem1 {
     width: 442px;
