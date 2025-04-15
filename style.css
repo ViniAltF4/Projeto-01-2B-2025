@@ -1,16 +1,16 @@
-.primeira_secao {
-    width: 534px;      
-    height: 976px;   
-    display: block;    
-    justify-content: center; 
-    align-items: center;     
-    background-color: rgb(255, 56, 56); 
+body{
+
+width:534px;
+height:976px;
+background-color:black;
 
 }
+.primeira_secao {
 
-
-.postagem1 {
-    width: 442px;
-    height:526px;
-    background-color: blue;
+width:534px;
+height:573px;
+background-color:orange ;
+display: flex;
+flex-direction:row ;
+justify-content: space-between;
 }
