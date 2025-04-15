@@ -1,35 +1,36 @@
-body{
+body {
 
-width:534px;
-height:976px;
-background-color:black;
+    width: 534px;
+    height: 976px;
+    background-color: black;
 
 }
+
 .primeira_secao {
 
-width:534px;
-height:573px;
-background-color:orange ;
-display: flex;
-flex-direction:row ;
-justify-content: space-between;
+    width: 534px;
+    height: 573px;
+    background-color: orange;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .segunda_secao {
 
-    width:534px;
-    height:319px;
-    background-color:yellow ;
+    width: 534px;
+    height: 319px;
+    background-color: yellow;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 
 }
 
-.rodape{
+.rodape {
 
-    width:534px;
-    height:84px;
-    background-color:black;
-position: fixed;
+    width: 534px;
+    height: 84px;
+    background-color: black;
+    position: flex;
 }
