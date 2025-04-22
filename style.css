@@ -1,68 +1,81 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    background-color: black;
-    color: white;
-    font-family: Arial, sans-serif;
-    width: 534px;
-    min-height: 100vh;
-    position: relative;
-    padding-bottom: 84px; /* espaço pro rodapé fixo */
-  }
-  
-  .primeira_secao {
-    width: 534px;
-    height: 573px;
-    background-color: orange;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .postagem1 {
-    width: 442px;
-    height: 526px;
-    background-color: white;
-    color: black;
-    padding: 20px;
-    margin: 10px 0;
-    text-align: center;
-  }
-  
-  
-  .segunda_secao {
-    width: 534px;
-    min-height: calc(100vh - 573px - 84px); /* altura total - primeira seção - rodapé */
-    background-color: yellow;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .postagem2 {
-    width: 442px;
-    height: 100%;
-    background-color: white;
-    color: black;
-    padding: 20px;
-    text-align: center;
-    box-sizing: border-box;
-  }
-  
-  
-  .rodape {
-    width: 534px;
-    height: 84px;
-    background-color: rgb(255, 17, 17);
-    color: white;
-    text-align: center;
-    line-height: 84px;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-  }
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+  width: 534px;
+  min-height: 100vh;
+  position: relative;
+  padding-bottom: 84px; /* espaço pro rodapé fixo */
+}
+
+.primeira_secao {
+  width: 534px;
+  height: 573px;
+  background-color: orange;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.postagem1 {
+width: 442px;
+height: 526px;
+background-color: white;
+color: black;
+padding: 20px;
+text-align: center;
+box-sizing: border-box;
+border-radius: 23px;
+}
+
+.imagem_postagem1 {
+width: 100%;
+height: 0;
+padding-bottom: 80.5%; /* 412/512 = 0.805 */
+background-image: url('...');
+background-size: cover;
+background-position: center;
+}
+
+
+.segunda_secao {
+width: 534px;
+min-height: calc(100vh - 573px - 84px); /* altura total - primeira seção - rodapé */
+background-color: yellow;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.postagem2 {
+width: 442px;
+  height:320px;
+background-color: white;
+color: black;
+padding: 20px;
+text-align: center;
+box-sizing: border-box;
+border-top-left-radius: 23px;
+border-top-right-radius: 23px;
+
+}
+
+
+
+.rodape {
+  width: 534px;
+  height: 84px;
+  background-color: rgb(255, 17, 17);
+  color: white;
+  text-align: center;
+  line-height: 84px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
