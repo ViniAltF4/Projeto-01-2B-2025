@@ -24,6 +24,8 @@
   }
   
   .postagem1 {
+    width: 442px;
+    height: 526px;
     background-color: white;
     color: black;
     padding: 20px;
@@ -31,14 +33,26 @@
     text-align: center;
   }
   
+  
   .segunda_secao {
     width: 534px;
-    height: 319px;
+    min-height: calc(100vh - 573px - 84px); /* altura total - primeira seção - rodapé */
     background-color: yellow;
     display: flex;
     align-items: center;
     justify-content: center;
   }
+  
+  .postagem2 {
+    width: 442px;
+    height: 100%;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  
   
   .rodape {
     width: 534px;
