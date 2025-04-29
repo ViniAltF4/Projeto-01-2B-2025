@@ -35,10 +35,9 @@ body {
 }
 
 .imagem_postagem1 {
-  width: 100%;
-  height: 0;
-  padding-bottom: 80.5%;
-  background-image: url('...');
+  width: 386px;
+  height: 275px;
+ 
   background-size: cover;
   background-position: center;
 }
